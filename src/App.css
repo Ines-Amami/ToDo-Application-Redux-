@@ -1,0 +1,50 @@
+body,p,a,ul,li{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+ }
+ li{
+  list-style-type: none;
+ }
+ body{
+  
+  overflow-x: hidden;
+ 
+ }
+ .todos li{
+  margin-top: 10px;
+  padding: 3%;
+  box-shadow: 1px;
+
+ }
+ .App{
+  background: #03024b;
+  margin: 15px;
+  height:fit-content;
+  border-radius: 10px;
+ }
+ .grid{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  box-sizing: border-box;
+ }
+ .ListTodo{
+  margin-top: 20px;
+ }
+
+
+
+ input{
+  background: rgba(255,255,255,0.05);
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 2px solid #9893D8;
+  color: #f2f2f2;
+  font-size: 1em;
+ }
+ .error{
+  color: rgb(187, 30, 30);
+  text-align: left;
+  margin-left: 2px;
+ }
